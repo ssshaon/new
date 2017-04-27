@@ -19,7 +19,7 @@ class TempController extends Controller
      }
      public function show(){
          $data=temp::all();
-         return view('Admin.show',['$data']);
+         return view('Admin.show','$data');
 
      }
 }

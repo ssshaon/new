@@ -84,7 +84,7 @@
 
                 <div class="links">
                     <a href="/admin/create">Temperature</a>
-                    <a href="https://laravel.com/docs">Documentation</a>
+                    <a href="/admin/show">View Temperature</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>

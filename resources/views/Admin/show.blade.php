@@ -1,2 +1,6 @@
+
+{!! Form::label('name','Date') !!}
+ {!!Form::date('name', \Carbon\Carbon::now())  !!}
+
  <?php
- dd($data);
+         echo $data;

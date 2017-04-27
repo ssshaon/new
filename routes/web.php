@@ -21,4 +21,4 @@ Route::get('/admin/create',function(){
 //    return view('/admin/store');
 //});
 Route::post('/admin/store','TempController@store');
-Route::post('/admin/show','TempController@show');
+Route::get('/admin/show','TempController@show');
