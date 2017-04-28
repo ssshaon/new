@@ -11,15 +11,17 @@ class TempController extends Controller
 {
      public function store(Request $request){
          $data=$request->all();
-//         dd($data);
+         dd($data);
          temp::create($data);
          Session::flash('message','Temperature added Successfully');
+         return redirect()->back();
 
 
      }
      public function show(){
          $data=temp::all();
-         return view('Admin.show','$data');
+//         dd($data);
+         return view('Admin.show',['allValue'=> $data]);
 
      }
 }
