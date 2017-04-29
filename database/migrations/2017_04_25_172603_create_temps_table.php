@@ -16,9 +16,9 @@ class CreateTempsTable extends Migration
         Schema::create('temps', function (Blueprint $table) {
             $table->increments('id');
             $table->float('Room1');
-            $table->float('Room2');
-            $table->float('Room3');
-            $table->float('Room4');
+            $table->float1('Room2');
+            $table->float2('Room3');
+            $table->float3('Room4');
             $table->timestamps();
             $table->softDeletes();
         });
@@ -31,6 +31,6 @@ class CreateTempsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('temps');
+//        Schema::dropIfExists('temps');
     }
 }

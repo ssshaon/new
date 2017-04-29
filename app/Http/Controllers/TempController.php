@@ -11,7 +11,7 @@ class TempController extends Controller
 {
      public function store(Request $request){
          $data=$request->all();
-         dd($data);
+//         dd($data);
          temp::create($data);
          Session::flash('message','Temperature added Successfully');
          return redirect()->back();

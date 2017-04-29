@@ -13,17 +13,17 @@
 {{--echo Form::date('name', \Carbon\Carbon::now());--}}
 
 <div>
-    {!! Form::label('float','Room2') !!}
-    {!! Form::text('float', null,['placeholder' => 'Temperature'])  !!}
+    {!! Form::label('float1','Room2') !!}
+    {!! Form::text('float1', null,['placeholder' => 'Temperature'])  !!}
 </div>
 <div>
-    {!! Form::label('float','Room3') !!}
-    {!! Form::text('float',null,['placeholder'=>'Temperature']) !!}
+    {!! Form::label('float2','Room3') !!}
+    {!! Form::text('float2',null,['placeholder'=>'Temperature']) !!}
 
 </div>
 <div>
-    {!! Form::label('float','Room4') !!}
-    {!! Form::text('float', null,['placeholder' => 'Temperature'])  !!}
+    {!! Form::label('float3','Room4') !!}
+    {!! Form::text('float3', null,['placeholder' => 'Temperature'])  !!}
 </div>
 
 <div>
