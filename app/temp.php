@@ -15,7 +15,7 @@ class temp extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'Room1','Room2','Room3','Room4',
+        'Room1','Room2', 'Room3', 'Room4',
     ];
 
     /**

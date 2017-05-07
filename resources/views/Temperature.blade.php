@@ -1,3 +1,4 @@
+@extends('Admin.layouts.main')
 {!! Form::open(['method'=>'post','action'=>'/admin/temp']) !!}
 <div>
     {!! Form::label('float','Room1') !!}

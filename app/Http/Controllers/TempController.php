@@ -14,14 +14,14 @@ class TempController extends Controller
 //         dd($data);
          temp::create($data);
          Session::flash('message','Temperature added Successfully');
-         return redirect()->back();
+          return redirect()->back();
 
 
      }
      public function show(){
          $data=temp::all();
 //         dd($data);
-         return view('Admin.show',['allValue'=> $data]);
+         return view('Admin.user.show',['allValue'=> $data]);
 
      }
 }

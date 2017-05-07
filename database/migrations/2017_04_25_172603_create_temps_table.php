@@ -15,10 +15,10 @@ class CreateTempsTable extends Migration
     {
         Schema::create('temps', function (Blueprint $table) {
             $table->increments('id');
-            $table->float('Room1');
-            $table->float1('Room2');
-            $table->float2('Room3');
-            $table->float3('Room4');
+            $table->float('Room1', 15, 2);
+            $table->float('Room2', 15, 2);
+            $table->float('Room3', 15, 2);
+            $table->float('Room4', 15, 2);
             $table->timestamps();
             $table->softDeletes();
         });

@@ -14,11 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/admin/create',function(){
-    return view('/admin/create');
+Route::get('/admin/user/create',function(){
+    return view('/admin/user/create');
 });
 //Route::get('admin/store',function(){
 //    return view('/admin/store');
 //});
-Route::post('/admin/store','TempController@store');
-Route::get('/admin/show','TempController@show');
+Route::post('/admin/user/store','TempController@store');
+Route::get('/admin/user/show','TempController@show');
