@@ -22,3 +22,4 @@ Route::get('/admin/user/create',function(){
 //});
 Route::post('/admin/user/store','TempController@store');
 Route::get('/admin/user/show','TempController@show');
+//Route::get('/admin/user/show','TempController@chart');

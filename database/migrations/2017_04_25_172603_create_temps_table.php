@@ -31,6 +31,6 @@ class CreateTempsTable extends Migration
      */
     public function down()
     {
-//        Schema::dropIfExists('temps');
+        Schema::dropIfExists('temps');
     }
 }

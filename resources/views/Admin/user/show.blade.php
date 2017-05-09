@@ -20,7 +20,13 @@
             <td>{{$temp->Room3}}</td>
             <td>{{$temp->Room4}}</td>
         </tr>
+
         @endforeach
+
+
+
+
+
 
 
 </table>
