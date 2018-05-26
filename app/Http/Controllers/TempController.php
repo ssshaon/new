@@ -45,4 +45,10 @@ class TempController extends Controller
 //         return view('Admin.user.show',['lava'=> $lava]);
 //
 //     }
+    public function chart(){
+        $data=temp::all();
+//         dd($data);
+        return view('Admin.user.lineGraph',['allValue'=> $data]);
+
+    }
 }

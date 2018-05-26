@@ -40,6 +40,7 @@
 
                     <li class="@yield('add_temperature')"><a href="/admin/user/create"><i class="icon-add"></i> <span>Add Temperature</span></a></li>
                     <li class="@yield('view_temperature')"><a href="/admin/user/show"><i class="icon-cloud"></i> <span>View Temperature</span></a></li>
+                    <li class="@yield('view_chartline')"><a href="/admin/user/lineGraph"><i class="icon-bubble-lines3"></i> <span>Chart Line</span></a></li>
                     <!-- /main -->
 
 

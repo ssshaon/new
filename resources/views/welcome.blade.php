@@ -86,6 +86,7 @@
                 <div class="links">
                     <a href="/admin/user/create">Temperature</a>
                     <a href="/admin/user/show">View Temperature</a>
+                    <a href="/admin/user/lineGraph">Chart Line</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
